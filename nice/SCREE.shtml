@@ -1,0 +1,17 @@
+<img id="image" src="scarymaze.JPG" style="width:1024 height:800">
+<p></p>
+
+<script>
+
+var imageSources = ["pazuzu.jpg", "kfee.jpg", "whatswrong.JPG", "redtroll.PNG", "bart.jpg", "smug.jpg", "strongbad.jpg"]
+
+var index = 0;
+setInterval (function(){
+  if (index === imageSources.length) {
+    index = 0;
+  }
+  document.getElementById("image").src = imageSources[index];
+  index++;
+} , 0004);
+
+</script>
