@@ -3,7 +3,7 @@
 
 <script>
 
-var imageSources = ["pazuzu.jpg", "kfee.jpg", "whatswrong.JPG", "redtroll.PNG", "bart.jpg", "smug.jpg", "strongbad.jpg"]
+var imageSources = ["pazuzu.jpg", "kfee.jpg", "whatswrong.JPG", "redtroll.PNG", "bart.jpg", "smug.jpg", "strongbad.jpg" style="width:1024 height:800"]
 
 var index = 0;
 setInterval (function(){
@@ -12,6 +12,6 @@ setInterval (function(){
   }
   document.getElementById("image").src = imageSources[index];
   index++;
-} , 0004);
+} , 0050);
 
 </script>
